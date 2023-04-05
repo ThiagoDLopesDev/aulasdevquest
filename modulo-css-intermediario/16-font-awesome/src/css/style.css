@@ -1,0 +1,25 @@
+
+.fa-instagram {
+    color: hotpink;
+    width: 50px;
+    padding: 50px;
+    border-radius: 10px 500px 30px 580px;
+    background-color: green;
+  }
+  
+  .fa-instagram:hover {
+    color: rgb(6, 6, 0);
+  }
+  
+  .fa-facebook {
+    
+    color: lightblue;
+    width: 50px;
+    padding: 50px;
+    border-radius: 580px 10px 580px 10px;
+    background-color: yellow;
+  }
+  
+  .fa-facebook:hover {
+    color: black;
+  }

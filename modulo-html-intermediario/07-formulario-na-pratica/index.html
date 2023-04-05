@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario na Pratica</title>
+</head>
+<body>
+    <h1>Formulario na Pratica</h1>
+
+    <h3>Formulario GET</h3>
+    <form action="index.html" method="get">
+        <input type="text" name="q">
+        <input type="submit" value="enviar">
+
+    </form>
+
+    <h3>Formulario com POST</h3>
+    <form action="index.html" method="post">
+        <input type="text" name="q">
+        <input type="submit" value="enviar">
+
+    </form>
+
+    <h3>Formulario de LOGIN</h3>
+
+    <form method="GET" action="index.html">
+
+        <input type="text" name="nome" id="nome" placeholder="Primeiro Nome"><br>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome"><br>
+        <input type="text" name="celula-ou-email" id="celular-ou-email" placeholder="Celular ou Email"><br>
+
+        <input type="password" name="senha" id="senha" placeholder="Senha">
+
+        <h3>Data de Nascimento</h3>
+
+        <select name="dia" id="dia">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+
+        </select>
+
+        <select name="mes" id="mes">
+            <option value="jan">jan</option>
+            <option value="fev">fev</option>
+            <option value="mar">mar</option>
+            <option value="abr">abr</option>
+            <option value="mai">mai</option>
+
+        </select>
+
+        <select name="ano" id="ano">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+
+        </select>
+
+        <br><br><label for="">Gênero</label><br><br>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="masculino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="feminino">
+        <label for="personalizado">Personalizado</label>
+        <input type="radio" name="genero" id="personalizado">
+
+
+    </form>
+    
+</body>
+</html>
